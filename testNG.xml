@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" parallel="classes" thread-count="4">
+
+    <parameter name="baseUrl" value="url_here"/>
+    <test name="Chrome Tests">
+        <parameter name="Browser" value="Chrome"/>
+        <classes>
+            <class name="tests.LoginTest" />
+            <class name="tests.CreateNewUserAccountTest" />
+            <class name="tests.CreateNewOrganisation" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->

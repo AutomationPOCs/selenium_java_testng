@@ -1,0 +1,58 @@
+# Compiled class files
+target/
+
+# Maven specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# NetBeans files
+/nbproject/private/
+/nbbuild/
+/dist/
+/build/
+
+# IntelliJ IDEA
+out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/.name
+.idea/.idea_modules/
+
+# Compiled source
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs and databases
+*.log
+*.sqlite
+*.h2.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.swp
+*.bak
